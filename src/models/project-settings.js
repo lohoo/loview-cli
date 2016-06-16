@@ -37,6 +37,7 @@ export default class ProjectSettings {
   }
 
   settingsPath() {
+    console.log(pwd());
     return path.join(pwd(), '.loviewrc');
   }
 
