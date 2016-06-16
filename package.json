@@ -1,6 +1,6 @@
 {
   "name": "loview-cli",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "The LO-View CLI to make working on web apps much faster",
   "main": "bin/loview.js",
   "engine": {
