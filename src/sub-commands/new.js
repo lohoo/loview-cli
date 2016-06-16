@@ -28,7 +28,6 @@ class New extends SubCommand {
     this.createDirTask.run(cliArgs).then(() => {
       let fetch_url = 'https://github.com/jiay0u/generator-react-redux.git';
       if (cliArgs.useSsh) {
-        console.log('USING SSH');
         fetch_url = 'jiay0u@github.com/jiay0u/generator-react-redux.git';
       }
       this.gitPullTask.run(fetch_url).then(() => {
